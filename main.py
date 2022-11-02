@@ -2,13 +2,11 @@
 
 import cv2
 from Tkinter import *
-from ctypes import windll
 from PIL import Image, ImageTk
 import numpy as np
 import pyglet
 
 pyglet.font.add_file('pretendard-light.ttf')
-
 
 def main():
     capture = cv2.VideoCapture(0)
