@@ -10,12 +10,13 @@
 ## 실행
 
 ```bash
+$ pip install git+https://github.com/mcarral/python-qt5.git
 $ python main.py
 ```
 
 ## TODO
 
 - [x] opencv로 Video Stream에서 빨간색 range 추출하기
-- [x] tkinter로 UI 구성
+- [x] PyQt5로 UI 구성
 - [ ] Video Stream을 웹캠 대신 Tello 드론에서 받아오도록 수정
 - [ ] ...

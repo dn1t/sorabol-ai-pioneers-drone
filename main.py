@@ -5,8 +5,13 @@ from Tkinter import *
 from PIL import Image, ImageTk
 import numpy as np
 import pyglet
+from ctypes import windll
+
+windll.shcore.SetProcessDpiAwareness(1)
 
 pyglet.font.add_file('pretendard-light.ttf')
+pyglet.font.add_file('pretendard-semibold.ttf')
+
 
 def main():
     capture = cv2.VideoCapture(0)
