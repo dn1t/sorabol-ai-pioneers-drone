@@ -9,8 +9,8 @@ from ctypes import windll
 
 windll.shcore.SetProcessDpiAwareness(1)
 
-pyglet.font.add_file('pretendard-light.ttf')
-pyglet.font.add_file('pretendard-semibold.ttf')
+pyglet.font.add_file('pretendard/Pretendard-Medium.ttf')
+pyglet.font.add_file('pretendard/Pretendard-SemiBold.ttf')
 
 
 def main():
